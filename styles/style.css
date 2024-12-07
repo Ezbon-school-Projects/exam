@@ -1,0 +1,63 @@
+*{
+  font-family: Arial;
+  line-height: 30px;
+  margin: 2px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  color:white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logo{
+  height: 80px;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.left-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  margin-right: 20px; 
+  list-style: none;
+}
+
+nav ul a{
+  text-decoration: none;
+  color: white;
+}
+
+
+nav ul a li:hover {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.animal{
+  height: 250px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  height: 100px;
+}
+
